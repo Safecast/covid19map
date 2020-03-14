@@ -7,6 +7,7 @@ composer.phar
 
 /.direnv
 /.envrc
+/.elasticbeanstalk/saved_configs/
 
 # Blocking all Ushahidi release files for now
 /README.release.md

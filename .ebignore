@@ -7,3 +7,4 @@ composer.phar
 
 /.direnv
 /.envrc
+/.elasticbeanstalk/saved_configs/

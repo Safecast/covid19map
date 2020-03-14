@@ -1,0 +1,3 @@
+branch-defaults:
+  master:
+    environment: covid19map-prd-001

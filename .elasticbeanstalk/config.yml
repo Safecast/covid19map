@@ -1,3 +1,4 @@
 branch-defaults:
   master:
-    environment: covid19map-prd-001
+    environment: covid19map-prd-002
+    group_suffix: null

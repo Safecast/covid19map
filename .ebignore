@@ -5,6 +5,8 @@ composer.phar
 # You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
 # composer.lock
 
-/.direnv
-/.envrc
+/.direnv/
 /.elasticbeanstalk/saved_configs/
+/.envrc
+/.git/
+/.gitignore/

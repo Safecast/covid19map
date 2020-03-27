@@ -42,6 +42,10 @@ chmod 770 storage/passport
 chmod 660 storage/passport/*
 ```
 * At this point, you can log in to the instance with username `admin` and password `admin`. You will be immediately prompted to add an email address and change the password.
+* After you have uploaded a logo, you may need to manually change its URL to HTTPS, for example:
+```
+update config set config_value = "\"https:\\/\\/covid19map.safecast.org\\/storage\\/5\\/e\\/5e6f3c067d3b3-safecast-square-color.png\"" where id = 8;
+```
 
 ## TODO
 
